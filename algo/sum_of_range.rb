@@ -3,6 +3,10 @@
 # numbers, inclusive.
 
 def sum_of_range(array)
+  start = array[0]
+  finish = array[1]
+  finish.times do 
+    
 
 end
 

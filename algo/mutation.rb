@@ -4,7 +4,14 @@
 
 def mutation?(base_word, mutation)
 
-end
+  mutation.split("").each do |char|
+    if base_word.include?(char)
+      return true 
+    else
+      return false
+    end
+  end
+end 
 
 # Driver code - don't touch anything below this line.
 puts "TESTING mutation?..."
